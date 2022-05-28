@@ -1,10 +1,10 @@
 class Student:
     # [assignment] Skeleton class. Add your code here
-    def __init__(self, name:str, age:int, tracks:list, score:float):
-        self.name = name
-        self.age = age
-        self.tracks = tracks
-        self.score = score
+    def __init__(self, name, age, tracks, score):
+        self.name = str(name)
+        self.age = int(age)
+        self.tracks = list(tracks)
+        self.score = float(score)
     def change_name(self, name):
         # self.name = name
         print("This is my updated name", str(name))
